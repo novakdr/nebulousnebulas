@@ -226,6 +226,10 @@ footer .heart {
   }
   .masthead {
     margin-top: 4rem;
+    padding: 0 1rem;
+  }
+  .img-container {
+    margin-top: 4rem;
   }
   .img {
     border-radius: 0;
