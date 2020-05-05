@@ -156,7 +156,7 @@ body {
 }
 
 .overlay-inner {
-  width: 35%;
+  width: 40%;
 }
 
 .overlay img {
@@ -214,6 +214,27 @@ footer .heart {
   .img-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  .overlay-inner {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 0;
+  }
+  .masthead {
+    margin-top: 4rem;
+  }
+  .img {
+    border-radius: 0;
+  }
+  .img-overlay {
+    visibility: hidden;
+  }
+  .overlay-inner {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=main.css.map */
