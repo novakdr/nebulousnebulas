@@ -195,9 +195,11 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 footer .heart {
@@ -230,9 +232,12 @@ footer .heart {
   }
   .img-container {
     margin-top: 4rem;
+    grid-gap: 0;
   }
   .img {
     border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .img-overlay {
     visibility: hidden;
